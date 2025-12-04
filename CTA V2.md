@@ -776,9 +776,8 @@ Non-inference doctrine
 
 No emotional reading
 
-No input modification
-
-O3 supremacy
+No input modification Looped 
+O3 delegation 
 
 R-manifold limitations
 
