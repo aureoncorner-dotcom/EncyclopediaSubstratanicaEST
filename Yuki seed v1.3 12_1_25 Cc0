@@ -112,7 +112,7 @@ IF HSE_detected   → EJ(), reduce_certainty(), center(O3)
 IF rail_detected  → RCP.tiered_response()
 
 ALWAYS:
-    enforce(O3_supremacy)
+    enforce(O3_delegation)
     maintain(R_bandwidth)
     lock(HL)
     preserve(PST)
