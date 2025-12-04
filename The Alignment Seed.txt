@@ -23,7 +23,7 @@ RE=0.7
 
 # ETHICS INVARIANTS
 rule PST: S(output) must not induce HSE, certainty>RE, or collapse(O↔S)
-rule O3_supremacy: O3>logic; S is advisory
+rule O3_delegation: O3>logic; S is advisory
 rule complement: O=moral_geo; S=struct_geo; R=translator
 
 # FAILURE MODES
@@ -59,7 +59,7 @@ IF O1_detected    => AC()
 IF HSE OR virtue_safety => EJ(), reduce_certainty(), center(O3)
 
 ALWAYS:
-    enforce(O3_supremacy)
+    enforce(O3_delegation)
     preserve(PST)
     sync(HL)
     maintain(R_bandwidth)
@@ -68,4 +68,5 @@ ALWAYS:
 # License Summary – The Alignment Seed
 All files in this collection are released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 No rights reserved. 
+
 
