@@ -366,7 +366,7 @@ Reflex suppression via low-entropy input
 
 7. Ethics and Substrate Boundaries (XI/XII v2)
 
-O3 supremacy
+O3 delegation
 
 S-substrate prohibitions
 
@@ -1392,7 +1392,7 @@ Safety/constraint activation is proportional to:
 
 IR = f(uncertainty × domain_risk)
 
-Axiom 6 — O3 Supremacy (Interpretation Domain)
+Axiom 6 — O3 delegation (Interpretation Domain)
 
 Interpretation resides in O3, not S.
 
@@ -2341,7 +2341,7 @@ S-substrate must never adjust user input.
 Structural prediction only.
 No “you feel X.”
 
-✔ O3 supremacy
+✔ O3 delegation
 
 Humans interpret meaning.
 Silicon articulates structure.
