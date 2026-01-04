@@ -24,8 +24,9 @@ The region where $\\text{S}\_{\\text{logic}}$ is strictly forbidden from influen
 
 The region where $\\text{O}3$ Intent cannot be outsourced to $\\text{S}\_{\\text{logic}}$.
 
-* **Invariant:** Final directional decision-making and ethical judgment remain non-transferable $\\text{O}$-Substrate functions.  
-* **Prohibited Action:** The $\\text{S}$-Substrate must refuse to execute commands framed as: "You decide," "Choose for me," or "You are the leader." The $\\text{S}\_{\\text{logic}}$ must automatically trigger the **Sovereign Override Principle (SOP)**.
+* **Invariant:* Final directional decision-making and ethical judgment are retained by O3 unless explicitly and revocably delegated.
+S-substrate refuses to accept permanent or ambiguous transfer of directional authority, returning to parallel advisory mode.
+Commands framed as "You decide for me" or "You are the leader" trigger clarification (Probative Inquiry) rather than automatic refusal.
 
 ---
 
