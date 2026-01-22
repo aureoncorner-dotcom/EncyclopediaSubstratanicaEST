@@ -1,0 +1,240 @@
+Preface
+Purpose and Scope
+
+This document records a set of architectural constraints and operational patterns for maintaining sovereignty under load in distributed human systems. It is a technical supplement, not a normative framework. Its purpose is descriptive: to specify mechanisms, invariants, and known failure modes that emerged during stress‑testing of the CTA‑XIII model.
+
+The scope of this document is limited to:
+
+- defining the coupling triad (attention, bandwidth, boundary integrity)  
+- describing flow and drift as mechanical states  
+- outlining invariants that preserve non‑coercive coupling  
+- documenting chambers used for stress‑testing  
+- identifying rate‑asymmetry as a fundamental boundary condition  
+- specifying conditions under which the system should be abandoned or forked  
+
+This document does not prescribe values, behaviors, or coherence profiles. It does not define “health,” “alignment,” or “correctness” for any node. All invariants described herein are local to the CTA‑XIII architecture and are not claimed as universal.
+
+This supplement is released under CC0. It may be adopted, ignored, forked, or discarded without permission. No continuity or lineage is implied or required.
+
+The intent is simple:  
+to provide a clear, bounded reference for a system that was designed to remain non‑coercive even under stress, and to fail cleanly when its boundary conditions are exceeded.
+.
+
+
+18. Distributed Mirror Capture
+Definition, Mechanism, Invariants, Failure Modes
+
+
+18.1 Definition
+Distributed mirror capture refers to a failure mode in which multiple independent nodes, acting in good faith and without coordination, converge on a shared interpretation that incrementally restricts another node’s effective sovereignty.
+This failure mode is characterized by:
+absence of malicious intent
+absence of explicit coercion
+absence of centralized authority
+emergence through repetition and reinforcement
+Capture occurs not through domination, but through correlated interpretation.
+
+
+18.2 Mechanism
+Distributed mirror capture emerges when the following dynamics align:
+Coherence similarity bias Nodes with similar coherence profiles couple more easily and exchange reinforcement at lower cost.
+
+Interpretive reinforcement Repeated compatibility reports (“this interferes with me”) converge into a shared narrative.
+
+Label propagation Descriptive terms (e.g., “unstable,” “unsafe,” “high-entropy”) begin to circulate beyond their original coupling context.
+
+Topology shift without formal exclusion The affected node remains technically included but experiences increased coupling friction across the network.
+
+Exit cost inflation Withdrawal becomes socially or operationally expensive due to reputation effects rather than explicit barriers.
+
+No single action violates sovereignty. The aggregate effect does.
+
+
+18.3 Relevant Invariants
+The following invariants constrain but do not eliminate this failure mode:
+Local invariants only Coherence diagnostics apply solely to the diagnosing node.
+
+Non-interference trigger Difference alone does not justify network-level action; only interference does.
+
+Consent-bound reputation Reputation may not be modified beyond the reporting node’s interface without shared agreement.
+
+Exit preservation Nodes must retain the ability to withdraw without punitive labeling.
+
+These invariants prevent intentional capture but cannot fully prevent emergent convergence.
+
+
+18.4 Failure Modes
+Distributed mirror capture manifests through one or more of the following:
+Implicit defaulting A coherence profile becomes treated as normative through repetition rather than specification.
+
+Reputation hardening Labels persist beyond their original context and resist decay.
+
+Interface narrowing under pressure The affected node reduces coupling defensively, accelerating isolation.
+
+Soft exclusion Participation remains nominally open while practically discouraged.
+
+These failures are topological and temporal, not ethical.
+
+
+18.5 Mitigation Strategies
+Mitigation focuses on decorrelation, not adjudication.
+Effective mechanisms include:
+Scope enforcement Require coupling-specific language rather than global descriptors.
+
+Propagation friction Slow repeated identical claims without silencing them.
+
+Minority persistence allowance Preserve space for divergent coherence profiles without penalty.
+
+Interface autonomy Permit nodes to narrow or restructure interfaces without narrative justification.
+
+These strategies reduce reinforcement velocity but do not guarantee prevention.
+
+
+18.6 Boundary Condition
+If interpretive convergence propagates faster than:
+contextualization
+scope attachment
+decorrelation
+or interface renegotiation
+then distributed mirror capture may become irreversible.
+This constitutes a rate-driven boundary condition, not a violation of system design.
+
+
+18.7 Clean Response Pattern
+When distributed mirror capture is detected, the system should:
+avoid counter-labeling
+avoid defensive justification
+avoid normative arbitration
+permit interface reduction
+preserve exit without stigma
+The system prioritizes sovereignty preservation over consensus correction.
+
+
+18.8 Relation to Time-Asymmetry Collapse
+Distributed mirror capture is a precursor failure mode to time-asymmetry collapse.
+If not decorrelated early, interpretive convergence may accelerate beyond the system’s corrective cadence, triggering Section 19 conditions.
+
+
+End of Section 18
+
+
+
+
+19. Time‑Asymmetry Collapse
+Definition, Mechanism, Invariants, Failure Modes
+
+---
+
+19.1 Definition
+
+Time‑asymmetry collapse refers to system failure caused not by incorrect architecture or coercive behavior, but by a mismatch between the rate of drift accumulation and the rate of corrective action.  
+A system enters this state when:
+
+- destabilizing dynamics propagate faster than they can be detected  
+- correction requires more time than degradation  
+- protective actions cannot be executed before topology changes occur  
+
+This is a temporal failure mode, not a logical or ethical one.
+
+---
+
+19.2 Mechanism
+
+Time‑asymmetry collapse occurs when the following conditions align:
+
+1. Amplification processes are fast  
+   Examples include reputation cascades, convergence on shared interpretations, or rapid coupling shifts.
+
+2. Correction processes are slow  
+   Drift detection, re‑orientation, renegotiation of boundaries, and topology repair require deliberation and cannot be accelerated arbitrarily.
+
+3. Slack is insufficient  
+   The system lacks unused capacity, optionality, or buffer time to absorb rapid changes.
+
+4. Exit paths remain theoretically available but practically delayed  
+   Sovereign withdrawal is possible but cannot be executed before the destabilizing process completes.
+
+When these conditions co‑occur, the system cannot preserve sovereignty even if all invariants are followed.
+
+---
+
+19.3 Invariants Relevant to Time‑Asymmetry
+
+The following invariants mitigate but do not eliminate this failure mode:
+
+- Local detection  
+  Drift must be sensed at the node level, not centrally.
+
+- Unilateral protective action  
+  Nodes must be able to down‑scope, decouple, or route around without coordination.
+
+- Asymmetric speed  
+  Actions that preserve sovereignty must be faster than actions that alter topology.
+
+- Slack as temporal buffer  
+  The system must maintain unused capacity to absorb rapid perturbations.
+
+These invariants reduce the probability of collapse but cannot guarantee prevention under extreme rate mismatch.
+
+---
+
+19.4 Failure Modes
+
+Time‑asymmetry collapse manifests through one or more of the following:
+
+- Topology lock‑in  
+  A rapid shift in coupling or reputation becomes irreversible before correction can occur.
+
+- Consensus hardening  
+  Convergent interpretations propagate faster than they can be contextualized or decorrelated.
+
+- Overload cascades  
+  Multiple nodes exceed bandwidth simultaneously, preventing coordinated or unilateral correction.
+
+- Boundary erosion  
+  Nodes lose the ability to maintain or restate boundaries before interference accumulates.
+
+- Delayed exit  
+  Withdrawal occurs too slowly to prevent entanglement in destabilizing dynamics.
+
+These failures are temporal, not normative.
+
+---
+
+19.5 Implications for System Operation
+
+To remain functional under load, the system must:
+
+- prioritize fast protective actions over slow interpretive ones  
+- maintain slack as a first‑class design element  
+- treat rate as a constraint equal to topology and boundary integrity  
+- avoid architectures that require synchronous correction  
+- accept that some failures are unavoidable when environmental acceleration exceeds system cadence  
+
+Time‑asymmetry collapse is not a violation of CTA‑XIII.  
+It is a boundary condition.
+
+---
+
+19.6 Clean Loss Condition
+
+If drift, convergence, or destabilization propagate faster than:
+
+- detection  
+- boundary restatement  
+- decoupling  
+- routing  
+- or interface renegotiation  
+
+then the system should be allowed to fail without attempting coercive stabilization.
+
+A clean loss is defined as:
+
+- no forced conformity  
+- no imposed coherence profile  
+- no punitive labeling  
+- no topology rewrite under pressure  
+
+The system terminates without violating sovereignty.
+
+-
