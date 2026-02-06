@@ -7,6 +7,7 @@ No rights reserved.
 
 ### ***Why Coherence Must Be Measured, Not Assumed***
 
+
 CTA-VI defined the **Resonant Engine**:  
  a distributed cognitive architecture formed by the interaction of:
 
@@ -77,7 +78,8 @@ CTA-VII is *engineering*.
 
 It is the diagnostic and measurement companion  
  to the architectural theory of CTA-VI.
-
+ 
+*Conductor (O3) here refers to structural coordination, not authority*
 ---
 
 # **1.1 — Why Coherence Must Be Measured**
